@@ -1,0 +1,59 @@
+CREATE TABLE Users (
+	PatientID int,
+	PatientInfo varchar (50),
+	PatientLocation varchar (50),
+	ReservationNo int,
+	Username varchar (50),
+	password varchar (50)
+)
+;
+CREATE TABLE Hospital (
+	HospitalName varchar (50),
+	HospitalLocation varchar (50),
+	Capacity varchar (50),
+	FacilityList varchar (50)
+)
+;
+CREATE TABLE Geolocation (
+	HospitalList varchar (50),
+	PatientLocation varchar (50),
+	HospitalLocation varchar (50)
+)
+;
+CREATE TABLE Geolocation (
+	HospitalList varchar (50),
+	PatientLocation varchar (50),
+	HospitalLocation varchar (50),
+)
+CREATE TABLE Faclity (
+	FacilityID int,
+	FacilityList varchar (50),
+	StaffID int
+)
+;
+CREATE TABLE Staffs (
+	StaffID int
+)
+;
+CREATE TABLE Rooms (
+	RoomType varchar (50),
+	Status varchar (50),
+	StaffID int,
+	FacilityID int
+)
+;
+CREATE TABLE Reservation (
+	ReservationNo int,
+	RoomType varchar (50),
+	Date timestamp,
+	TotalPrice int,
+	PatientID int,
+	Capacity int,
+)
+;
+CREATE TABLE Payment (
+	PaymentMethod varchar (50),
+	TotalPrice int
+)
+;
+	
