@@ -1,8 +1,5 @@
 CREATE TABLE Users (
 	PatientID int,
-	PatientInfo varchar (50),
-	PatientLocation varchar (50),
-	ReservationNo int,
 	Username varchar (50),
 	password varchar (50)
 )
