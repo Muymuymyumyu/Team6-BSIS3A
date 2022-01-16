@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    place-items: center;
+}
+
+.form{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr ;
+    width: 580px;
+    height: 200px;
+}
+
+.logo{
+    margin: 30% 0 0 35%;
+}
+
+.sideblue{
+    background-color: blue;
+}
+
+.upcs{
+    background-color: rgb(179, 220, 228);
+    padding: 20px 0 0 0;
+}
+
+.mb-3{
+    margin: 0px 0 10px 30px;
+}
+
+#signup{
+    margin: 25px 0 0 120px;
+    background-color: red;
+    color: white;
+}
