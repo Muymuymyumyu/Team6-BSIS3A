@@ -24,7 +24,7 @@ if(isset($_GET[delid]))
     <table width="200" border="3">
       <tbody>
         <tr>
-          <td width="21%">Room Type</td>
+          <td width="21%">RoomType</td>
           <td width="21%">Room Number</td>
           <td width="30%">Number of beds</td>
             <td width="30%">Room Staff</td>
